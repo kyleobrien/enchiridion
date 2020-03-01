@@ -72,12 +72,37 @@ Cascading Style Sheets
 ## JavaScript
 
 -   A terrible, interpreted programming langauge.
--   Can interacti with the browser, HTML, and even make calls to servers.
+-   Can interact with the browser, HTML, and even make calls to servers.
 -   Same as CSS; can be inline, in header, or an external file.
 -   AJAX = Asynchoronous JavaScript and XML. A technique for calling an API, returning data, and process/displaying it without refreshing the page.
 ## Node
 
 ## SQL
-Structured Query Language
+-   Structured Query Language, a way to interact with a database.
+-   A basic query to read data:
+    ```
+    SELECT <column1>, <column2>, ...
+      FROM <table>
+     WHERE <boolean expression>;
+    ```
+-   Ordering the results: `ORDER BY <order type>`
+    -   ASC = Ascending (the default)
+    -   DESC = Descending
+-   Operators:
+    -   =, equals
+    -   <>, not equals
+    -   AND, logical and
+    -   OR, logical or
+-   A basic query to create data:
+    ```
+    INSERT INTO <table> (<column1>, <column2>, ...)
+         VALUES (<value1>, <value2>, ...);
+    ```
+-   A basic query to update data:
+    ```
+    UPDATE <table>
+       SET <column1> = <some value>, <column2> = <some value>, ...
+     WHERE <boolean expression>;
+     ```
 
 ## Linux
