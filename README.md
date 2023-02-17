@@ -1,26 +1,6 @@
 # The Enchiridion
 A handbook.
 
-## Internet
-
--   Born in the '80s.
-
-## WWW
-World Wide Web
-
--   Born in the '90s and layered atop of the Internet; resources identified by URLs and connected by hyperlinks.
--   Resources (like HTML documents) are hosted on a web server.
--   Communication between web server and client (probably a web browser) via HTTP.
-    -   Client can request documents that should be returned from the server (GET).
-    -   Client can send information to the server (POST)
-    -   Client can upload (PUT) documents on the server.
-    -   Client browser styles the HTML document with CSS, gets functionality from JavaScript.
-
-## URL
-Uniform Resource Locator
-
-## HTTP
-
 ## HTML
 Hypertext Markup Language 
 
@@ -78,7 +58,7 @@ Cascading Style Sheets
 ## Node
 
 ## SQL
--   Structured Query Language, a way to interact with a database.
+-   Structured Query Language. A way to interact with a database.
 -   A basic query to read data:
     ```
     SELECT <column1>, <column2>, ...
@@ -104,5 +84,10 @@ Cascading Style Sheets
        SET <column1> = <some value>, <column2> = <some value>, ...
      WHERE <boolean expression>;
      ```
+-   A basic query to delete data:
+    ``` SQL
+    DELETE FROM *table*
+     WHERE *boolean expression*;
+    ```
 
 ## Linux
